@@ -1,0 +1,50 @@
+body{
+    background-color: #ef9273;
+}
+    
+    #parent{
+    display: flex;
+    gap: 8px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.dora{
+    height: 100px;
+    width: 100px;
+
+}
+@media (max-width: 994px) and (vertical-scrollbar) {
+    body { overflow-y: scroll; }
+    #parent {
+      flex-direction: column;
+      display: inline;
+    }
+  }
+  
+  
+  
+.dpara{
+    font-size:medium;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+.dbutto:hover{
+    background-color: #f13ea1;
+
+}
+.sbutto:hover{
+    background-color: red;
+
+}
+.bbutto:hover{
+    background-color: brown;
+
+}
+.tbutto:hover{
+    background-color: gray;
+
+}
