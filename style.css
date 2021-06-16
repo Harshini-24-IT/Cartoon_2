@@ -15,16 +15,6 @@ body{
     width: 100px;
 
 }
-@media (max-width: 994px) and (vertical-scrollbar) {
-    body { overflow-y: scroll; }
-    #parent {
-      flex-direction: column;
-      display: inline;
-    }
-  }
-  
-  
-  
 .dpara{
     font-size:medium;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -47,4 +37,23 @@ body{
 .tbutto:hover{
     background-color: gray;
 
+}
+#parent{
+    display: flex;
+    flex-direction: column;
+}
+@media(min-width: 768px)
+{
+    #parent{
+    display: flex;
+    flex-direction: row;
+    }
+
+}
+@media(min-width: 1020px)
+{
+    #parent{
+        display: flex;
+        flex-direction: row;
+    }
 }
